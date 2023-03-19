@@ -16,8 +16,15 @@ Category.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    // define columns
-  },
+  //   product_id: {
+  //     type: DataTypes.INTEGER,
+  //     references: {
+  //       model: "product",
+  //       key: "id",
+  //       unique: false,}
+  //   // define columns
+  // },
+},
   {
     sequelize,
     timestamps: false,
